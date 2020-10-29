@@ -13,4 +13,12 @@
     <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="3.1.8" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\CoreApp.Application\CoreApp.Application.csproj" />
+    <ProjectReference Include="..\CoreApp.Data.EF\CoreApp.Data.EF.csproj" />
+    <ProjectReference Include="..\CoreApp.Data\CoreApp.Data.csproj" />
+    <ProjectReference Include="..\CoreApp.Infrastructure\CoreApp.Infrastructure.csproj" />
+    <ProjectReference Include="..\CoreApp.Utilities\CoreApp.Utilities.csproj" />
+  </ItemGroup>
+
 </Project>
